@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<!-- adattabile a mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	
+	<!-- MaxCDN fornisce bootsrap 4-->
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Menu Sindaco</title>
+
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="header">Contatti</div>
+        <div class="contactsblock">
+			<div class="dropdown">
+				<div class="dropbtn" onclick="myFunction(this)">Protezione Civile <i class="fas fa-angle-right rotate" id="icon"></i></div>
+					<div class="dropdown-content" id="hidden">
+							<p>Centralino <i class="fa fa-phone call"></i></p>
+					</div>
+			</div>
+			<div class="dropdown">
+					<div class="dropbtn" onclick="myFunction(this)">Ufficio Tecnico <i class="fas fa-angle-right rotate" id="icon"></i></div>
+					<div class="dropdown-content" id="hidden">
+							<p>Tecnico 1 <i class="fa fa-phone call"></i></p>
+							<p>Tecnico 2 <i class="fa fa-phone call"></i></p>
+							<p>Tecnico 3 <i class="fa fa-phone call"></i></p>
+					</div>
+			</div>
+			<div class="dropdown">
+					<div class="dropbtn" onclick="myFunction(this)">Magazzino <i class="fas fa-angle-right rotate" id="icon"></i></div>
+					<div class="dropdown-content" id="hidden">
+							<p>Magazziniere 1 <i class="fa fa-phone call"></i></p>
+							<p>Magazziniere 2 <i class="fa fa-phone call"></i></p>
+							<p>Magazziniere 3 <i class="fa fa-phone call"></i></p>
+					</div>
+			</div>
+		</div>
+	</div>
+
+<script src="scripts.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
